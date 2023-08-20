@@ -1,0 +1,83 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-family: fantasy;
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    padding-top: 10rem;
+    text-shadow: rgb(67, 69, 127) 0px 0px 10px,  rgb(67, 69, 127) 0px 0px 10px, rgb(67, 69, 127) 0px 0px 10px;
+    -webkit-font-smoothing: antialiased;
+}
+
+h2{
+    color: rgb(67, 69, 127);
+    font-size: 5em;
+    font-family: fantasy;
+    margin: 0;
+    font-style: italic;
+    text-shadow: white 0px 0px 10px,  white 0px 0px 10px;
+             -webkit-font-smoothing: antialiased;
+}
+
+.container{
+    display: flex;
+    background-color: rgb(67, 69, 127);
+    width: 28%;
+    height: 670px;
+    padding: 50px;
+    margin: 23px auto;
+    justify-content: left;
+    color: black;
+    border-top-right-radius:15px;
+    border-top-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-bottom-left-radius:15px;
+    padding: 30px;
+    align-items: left;
+    
+}
+
+.song{
+    height: 52px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    width: 240%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -15px;
+    margin-bottom: 25px;
+    padding: 5px;
+    font-family: fantasy;
+}
+
+.time{
+    padding-right: 10px;
+}
+
+.song img{
+    width: 45px;
+    margin-left: 5px;
+    border-radius: 7.5px;
+}
+
+.bar{
+    display: flex;
+    background-color: black;
+    height: 65px;
+    position: sticky;
+    bottom: 0;
+    align-content: center;
+    padding-top: 10px;
+}
+
+button{
+    width: 65px;
+    justify-self: center;
+    margin: 0px auto;
+    cursor: pointer;
+}
